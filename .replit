@@ -1,0 +1,2 @@
+language = "nodejs v16"
+run = "npm start"

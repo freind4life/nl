@@ -1,17 +1,29 @@
 {
-  "name": "nl-bot-revamped",
+  "name": "nl",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "dependencies": {
+    "discord.js": "^13.3.1",
+    "express": "^4.17.1",
+    "glob": "^7.2.0",
+    "mongoose": "^6.1.0"
+  },
+  "devDependencies": {
+    "node": "^16.13.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freind4life/nl.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "discord.js": "^13.3.1",
-    "glob": "^7.2.0",
-    "mongoose": "^6.1.0"
-  }
+  "bugs": {
+    "url": "https://github.com/freind4life/nl/issues"
+  },
+  "homepage": "https://github.com/freind4life/nl#readme",
+  "description": ""
 }
